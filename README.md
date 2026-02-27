@@ -1,4 +1,4 @@
-# <img src="03_final_ui_design/canva_designs/EcoWorld(logo4).png" alt="EcoWorld logo" width="150"/> — Management App for Football Coaches
+# <img src="03_final_ui_design/canva_designs/EcoWorld(logo4).png" alt="EcoWorld logo" width="150"/> — From research to usability-tested e-commerce UX/UI
 
 <sub>🗓️ Developed in January 2026</sub>
 

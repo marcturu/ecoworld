@@ -3,7 +3,7 @@
 <sub>🗓️ Developed in January 2026</sub>
 
 This project consists of the full **UX/UI design process** of a mobile-first organic food e-commerce application.  
-It covers the complete design lifecycle — from market research and user studies to interactive prototypes and usability testing — structured across three consecutive activities.
+It covers the complete design lifecycle — from market research and user studies to interactive prototypes and usability testing — structured across three consecutive phases.
 
 ---
 

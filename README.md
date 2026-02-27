@@ -33,6 +33,7 @@ A survey of 30 respondents was designed and distributed via WhatsApp and Instagr
 Four user segments were identified: **Committed (35%)**, **Undecided (45%)**, **Negative (10%)**, **Neutral (10%)**.
 
 ### Files
+- Research report
 - Empathy map
 - FigJam board with annotated screenshots of all 5 platforms
 - 2 User Personas
@@ -71,6 +72,7 @@ Low-fidelity wireframes were designed in **Figma** using a mobile-first approach
 | Search results (with modal) | ✅ | ❌ |
 
 ### Files
+- UX design report
 - Card sorting board (Miro)
 - Sitemap (Miro)
 - User flow diagram (Miro)
@@ -116,6 +118,7 @@ Three usability tests were conducted with participants matching the target audie
 #### 🎬 [Recorded Demo](https://www.dropbox.com/scl/fi/d09ao1dr3qqba3kbib5g0/EcoWorld-Test-usabilidad.mkv?rlkey=dnpvty5arg2higtajre5qklx6&st=kjl4zfk3&dl=0)
 
 ### Files
+- UI design report
 - Full design system with high-fidelity mobile prototypes and interactive design (Figma)
 - Updated user flow with prototype screens (Miro)
 - 3 usability test recordings (Dropbox)

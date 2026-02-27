@@ -2,193 +2,144 @@
 
 <sub>🗓️ Developed in January 2026</sub>
 
-This project is a **full-stack web application** that allows football coaches to **organize teams, players, trainings, and matches**.  
-Coaches can track player needs, plan training sessions, and design match strategies for improved performance.
+This project consists of the full **UX/UI design process** of a mobile-first organic food e-commerce application.  
+It covers the complete design lifecycle — from market research and user studies to interactive prototypes and usability testing — structured across three consecutive activities.
 
 ---
 
-## ✅ Features
+## 📁 Repository Structure
 
-- **User registration & login** system.
-- **Team & Player Management**: Create, edit, and manage teams and players.  
-- **Training Planning**: Schedule training sessions and select from a wide range of exercises.  
-- **Match Preparation**: Build lineups, review pre-game insights, and record post-match data for team and player analysis.     
-- **Modern Web Stack**:  
-  - **Frontend**: React (deployed on **Vercel**)  
-  - **Backend**: Node.js/Express (deployed on **Heroku**). The service is available only while the dynos are running, which typically incurs a cost of roughly $0.010 per hour.
-- **Cloud Database**: Uses **[Firebase](https://console.firebase.google.com/u/0/project/letsmanage-e2725/overview)** for real-time data storage (Google Cloud). A billing account with available credit is required for the service to operate.  
-- **Responsive Design** for desktop and tablet use.
-- Scrum format tracked through [Taiga](https://tree.taiga.io/project/marcturu-letsmanage/timeline) (last images in the README).
-
----
-
-## 🛠 Installation & Setup
-
-### a0. Prerequisites
-Make sure you have installed:
-- **Node.js 18** or higher
-- **npm** (comes with Node)
-
-Check versions:
-```bash
-node -v
-npm -v
+```
+01_research/             ← Phase 1: Benchmarking & target audience study
+02_ux_design/            ← Phase 2: Information architecture, flow & wireframes
+03_final_ui_design/      ← Phase 3: Visual design, interactive prototype & usability tests
 ```
 
-### a1. Clone the repository
-```bash
-git clone https://github.com/marcturu/LetsManage.git
-cd LetsManage
-```
-
-### a2. Run locally
-Open two terminals and start **frontend** and **backend**:
-
-```bash
-# In /backend
-npm install
-npm start
-
-# In /frontend
-npm install
-npm start
-```
-
-The app will be available at **http://localhost:3000** (frontend) and **http://localhost:5000** (backend).
-
-### b1. Try the web application
-You can try the application using either the Vercel deployment (for visual testing in the browser) or the Heroku deployment (to test API routes).
-
-- **Vercel (browser testing):**  
-  WebApp: [https://lets-manage-lake.vercel.app/](https://lets-manage-lake.vercel.app/)  
-  Project on Vercel: [https://vercel.com/marcs-projects-4add0205/lets-manage](https://vercel.com/marcs-projects-4add0205/lets-manage)
-
-- **Heroku (API testing):**  
-  [https://lets-manage-7d2ea4f309ff.herokuapp.com/](https://lets-manage-7d2ea4f309ff.herokuapp.com/) 
-
-> ℹ️ **Note:** For the Heroku deployment to work, the dynos must be active.  
-> 1. Go to [Heroku Dashboard](https://dashboard.heroku.com/apps/lets-manage/)  
-> 2. Navigate to **Resources** and activate the dynos.
-
-> ℹ️ **Checking for errors:**  
-> 1. Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)  
-> 2. Run `$ heroku login`  
-> 3. Run `$ heroku logs --tail -a lets-manage`
-
-### c1. Watch the Demo
-**A [Recorded Demo](https://www.dropbox.com/scl/fi/1v3ebhhl6el0m06dv9ois/Demo-TFG.mkv?rlkey=lrag32bxkw3mcgj7y3qejwunz&e=1&st=5mnw1007&dl=0) is also available**.  
-
 ---
-### Deployed source code for:
-### - [Frontend repo](https://github.com/marcturu/deploy-frontend)
-### - [Backend repo](https://github.com/marcturu/deploy-backend)
+
+## 🔍 01 — Benchmarking & Target Audience Study
+
+<sub>🗓️ October 2025</sub>
+
+### What's inside
+Competitive analysis of 5 organic food platforms and a user research study (survey + empathy map + user personas).
+
+### Benchmarking
+Five platforms were analysed: **Veritas**, **Ametller Origen**, **Naturitas**, **Planeta Huerto** and **Original Market**. Each was evaluated on visual design, responsiveness, and whether it fulfilled 7 key user stories (home page, shop, filters, product detail, cart, checkout, post-purchase confirmation).
+
+### Target Audience Study
+A survey of 30 respondents was designed and distributed via WhatsApp and Instagram, with a 76–73% response rate respectively. Questions covered buying habits, attitudes towards organic food, platform preferences and pain points.
+
+Four user segments were identified: **Committed (35%)**, **Undecided (45%)**, **Negative (10%)**, **Neutral (10%)**.
+
+### Files
+- Empathy map
+- FigJam board with annotated screenshots of all 5 platforms
+- 2 User Personas
+- Survey results
 
 ---
 
-## 📂 Documentation
+## 🗺️ 01 — Experience Design
 
-All additional documentation is in the `/DOCS` directory:
-- **Context & Scope**  
-- **Methodology & Architecture**  
-- **Specification & Design**  
-- **Implementation Details**  
-- **Testing Strategy**  
-- **Project management**  
-- **Public Defense & Extras**  
+<sub>🗓️ November 2025</sub>
 
-Thesis grade: **8.3** (details in `/GRADES`).
+### What's inside
+Information architecture (card sorting + sitemap), user flow diagram, and mobile-first wireframes with desktop adaptation.
+
+### Card Sorting
+An open card sorting session was conducted in person with 4 participants (later simulated in Miro), using 30 product cards. Participants sorted them freely into self-defined categories over 60 minutes.
+
+### Sitemap
+A full sitemap was designed in Miro, representing all screens and their hierarchy, including secondary navigation systems (search, filters, sorting, recommendations, related products, keywords, dropdowns).
+
+### User Flow
+A complete user flow was designed for the main task: **purchasing a product from home to order confirmation**, including all decision points and merge points.
+
+### Wireframes
+Low-fidelity wireframes were designed in **Figma** using a mobile-first approach (iPhone 13/14 frame), then adapted to desktop. Pages covered:
+
+| Screen | Mobile | Desktop |
+|---|---|---|
+| Home | ✅ | ✅ |
+| Search results | ✅ | ✅ |
+| Product details | ✅ | ✅ |
+| Create account | ✅ | ✅ |
+| Checkout | ✅ | ✅ |
+| Post-purchase | ✅ | ✅ |
+| Sidebar | ✅ | ❌ |
+| Search results (with modal) | ✅ | ❌ |
+
+### Files
+- Card sorting board (Miro)
+- Sitemap (Miro)
+- User flow diagram (Miro)
+- Mobile-first wireframes (Figma)
+- Desktop wireframes (Figma)
 
 ---
+
+## 🎨 03 — Final Interface Design
+
+<sub>🗓️ January 2026</sub>
+
+### What's inside
+Full visual design system (with colour palette, typography, iconography, logo, grid,...), high-fidelity final mobile prototypes and interactive flow.
+
+### High-Fidelity Mockups
+All previous wireframes were rebuilt as high-fidelity prototypes in Figma with full visual styling. Additional screens added: **Search results (with filters)**, **Search results (with no results)** and **FAQs**.
+
+### Interactive Prototype
+The previous user flow was rebuilt with all interactive connections in Figma, allowing full navigation simulation from Home to post-purchase confirmation.
+
+### Usability Tests
+Three usability tests were conducted with participants matching the target audience profile (ages 24, 38 and 49). Each session included screen recording and face recording, following a structured script.  
+
+**5 tasks tested:**
+1. Category exploration and return to home
+2. Filtering by rating and Best Seller label
+3. Product detail, favourites and add to cart
+4. Checkout flow with cart editing
+5. Post-purchase help and FAQs access
+
+**Key conclusions:**
+- Design is clear, intuitive and visually appropriate for the product category.
+- Users successfully related components across the interface (footer ↔ sidebar, filters ↔ product list).
+- Some key elements (checkboxes, secondary CTAs, text-heavy sections) were skipped or overlooked under task pressure.
+- Users interpreted screens differently from each other — flexibility and error tolerance are priorities for improvement.
+
+**Proposed improvements:**
+- Redesign key components to be more visually prominent.
+- Increase flexibility for different user profiles and abilities.
+- Expand product variety and content depth for a realistic implementation.
+
+#### 🎬 [Recorded Demo](https://www.dropbox.com/scl/fi/d09ao1dr3qqba3kbib5g0/EcoWorld-Test-usabilidad.mkv?rlkey=dnpvty5arg2higtajre5qklx6&st=kjl4zfk3&dl=0)
+
+### Files
+- Full design system with high-fidelity mobile prototypes and interactive design (Figma)
+- Updated user flow with prototype screens (Miro)
+- 3 usability test recordings (Dropbox)
+
+---
+
+## 🔗 External Links
+
+- 📱 [Figma Mobile prototype (Phase 2)](https://www.figma.com/proto/nmVyVtEQ5NIF6lqv8e9gOP/UOC_DII_A2_Prototipos_TuruRocaMarc?page-id=0%3A1&node-id=1-8&p=f&viewport=98%2C25%2C0.29&t=LCjcwmYctzHsAVke-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A8)
+- 🖥️ [Figma Desktop prototype (Phase 2)](https://www.figma.com/proto/nmVyVtEQ5NIF6lqv8e9gOP/UOC_DII_A2_Prototipos_TuruRocaMarc?page-id=1%3A2&node-id=152-1500&p=f&viewport=607%2C192%2C0.3&t=u77iwNfDep8STje3-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=152%3A1500)
+
+- 🎨 [Figma design file](https://www.figma.com/design/R6iUHCBwrOWq09EwBevUzW/UOC_DII_A3_Prototipos_TuruRocaMarc?m=auto&t=XSiqZ4xOoZsXXs1a-1)
+- 📱 [Interactive prototype (Figma)](https://www.figma.com/proto/R6iUHCBwrOWq09EwBevUzW/UOC_DII_A3_Prototipos_TuruRocaMarc?page-id=0%3A1&node-id=1-8&p=f&viewport=76%2C54%2C0.09&t=2ge0MUgC3QqZ7rYb-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A8)
+  
+---
+
 ## 📷 Screenshots 
-
-### Main Page:
-![Main](screenshots/main.png)
-
-### Register:
-![Register](screenshots/register.png)
-
-### Log in:
-![Login](screenshots/login.png)
-
-### Home:
-![Home](screenshots/home.png)
-
-### Profile:
-![MainPage](screenshots/profile.png)
-
-### Clubs:
-![MainPage](screenshots/clubs.png)
-
-### Exercise(s):
-![Exercise0](screenshots/exercise0.jpg)
-![Exercise1](screenshots/exercise1.png)
-
-### Team(s):
-![Team0](screenshots/team0.png)
-![Team1](screenshots/team1.jpg)
-![Team2](screenshots/team2.png)
-![Team3](screenshots/team3.png)
-![Team4](screenshots/team4.jpg)
-
-### Player(s):
-![Player0](screenshots/player0.png)
-![Player1](screenshots/player1.png)
-![Player2](screenshots/player2.jpg)
-
-### Match(es):
-![Match0](screenshots/match0.jpg)
-![Match1](screenshots/match1.jpg)
-![Match2](screenshots/match2.jpg)
-![Match3](screenshots/match3.jpg)
-![Match4](screenshots/match4.jpg)
-
-### Training(s):
-![Training0](screenshots/training0.png)
-![Training1](screenshots/training1.png)
-![Training2](screenshots/training2.jpg)
-
-### Select file:
-![SelectFile](screenshots/select_file.jpg)
-
-### Select club:
-![SelectClub](screenshots/select_club.jpg)
-
-### Select formation:
-![SelectFormation](screenshots/select_formation.jpg)
-
----
-### Use Cases Diagram:
-![UseCasesDiagram](screenshots/use_cases_diagram.png)
-
-### Conceptual Data Model:
-![ConceptualDataModel](screenshots/conceptual_data_model.png)
-
-### Class Dessign Model:
-![ClassDesignModel](screenshots/class_design_model.png)
-
-### Physical Architecture Model:
-![PhysicalArchitectureModel](screenshots/physical_architecture_model.png)
-
-### Database Interaction Example:
-![DatabaseInteractionExample](screenshots/database_interaction_example.png)
-
-### 201 Created Code Example:
-![201CreatedCodeExample](screenshots/201_created_code_example.png)
-
-### Gantt Chart:
-![GanttChart](screenshots/gantt_chart.png)
-
----
-### Taiga:
-![Taiga0](screenshots/taiga0.jpg)
-![Taiga1](screenshots/taiga1.jpg)
-![Taiga2](screenshots/taiga2.jpg)
 
 ---
 
 ## ⚖️ Copyright & License
 
-© 2025 Marc Turu Roca. All rights reserved.
+© 2026 Marc Turu Roca. All rights reserved.
 
 This project and its contents are the exclusive intellectual property of Marc Turu Roca.  
 All rights reserved. No part of this project may be copied, modified, distributed, or used without prior written permission from the author.
+

@@ -41,7 +41,7 @@ Four user segments were identified: **Committed (35%)**, **Undecided (45%)**, **
 
 ---
 
-## 🗺️ 01 — Experience Design
+## 🗺️ 02 — Experience Design
 
 <sub>🗓️ November 2025</sub>
 

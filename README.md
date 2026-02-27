@@ -86,7 +86,7 @@ Low-fidelity wireframes were designed in **Figma** using a mobile-first approach
 <sub>🗓️ January 2026</sub>
 
 ### What's inside
-Full visual design system (with colour palette, typography, iconography, logo, grid,...), high-fidelity final mobile prototypes and interactive flow.
+Full visual design system (with color gamut, typography, iconography, layout, elements, usability guidelines, accessibility,...), high-fidelity final mobile prototypes and interactive flow.
 
 ### High-Fidelity Mockups
 All previous wireframes were rebuilt as high-fidelity prototypes in Figma with full visual styling. Additional screens added: **Search results (with filters)**, **Search results (with no results)** and **FAQs**.
@@ -129,9 +129,7 @@ Three usability tests were conducted with participants matching the target audie
 
 - 📱 [Figma Mobile prototype (Phase 2)](https://www.figma.com/proto/nmVyVtEQ5NIF6lqv8e9gOP/UOC_DII_A2_Prototipos_TuruRocaMarc?page-id=0%3A1&node-id=1-8&p=f&viewport=98%2C25%2C0.29&t=LCjcwmYctzHsAVke-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A8)
 - 🖥️ [Figma Desktop prototype (Phase 2)](https://www.figma.com/proto/nmVyVtEQ5NIF6lqv8e9gOP/UOC_DII_A2_Prototipos_TuruRocaMarc?page-id=1%3A2&node-id=152-1500&p=f&viewport=607%2C192%2C0.3&t=u77iwNfDep8STje3-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=152%3A1500)
-
-- 🎨 [Figma design file](https://www.figma.com/design/R6iUHCBwrOWq09EwBevUzW/UOC_DII_A3_Prototipos_TuruRocaMarc?m=auto&t=XSiqZ4xOoZsXXs1a-1)
-- 📱 [Interactive prototype (Figma)](https://www.figma.com/proto/R6iUHCBwrOWq09EwBevUzW/UOC_DII_A3_Prototipos_TuruRocaMarc?page-id=0%3A1&node-id=1-8&p=f&viewport=76%2C54%2C0.09&t=2ge0MUgC3QqZ7rYb-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A8)
+- 📱 [Figma Mobile prototype (Phase 3)](https://www.figma.com/proto/R6iUHCBwrOWq09EwBevUzW/UOC_DII_A3_Prototipos_TuruRocaMarc?page-id=0%3A1&node-id=1-8&p=f&viewport=76%2C54%2C0.09&t=2ge0MUgC3QqZ7rYb-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A8)
   
 ---
 

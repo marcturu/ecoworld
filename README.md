@@ -133,7 +133,97 @@ Three usability tests were conducted with participants matching the target audie
   
 ---
 
-## 📷 Screenshots 
+## 📷 Screenshots
+
+## 🎨 03 — Final Interface Design
+
+### Sidebar:
+![Sidebar](03_final_ui_design/final_prototypes/screens/0.Sidebar.png)
+
+### Home:
+![Home](03_final_ui_design/final_prototypes/screens/1.Home.png)
+
+### Search results:
+![SearchResults](03_final_ui_design/final_prototypes/screens/2.SearchResults.png)
+
+### Search results (with modal):
+![SearchResults(withModal)](03_final_ui_design/final_prototypes/screens/3.SearchResults(withModal).png)
+
+### Search results (with filters):
+![SearchResults(withFilters)](03_final_ui_design/final_prototypes/screens/4.SearchResults(withFilters).png)
+
+### Search results (with no results):
+![SearchResults(withNoResults)](03_final_ui_design/final_prototypes/screens/5.SearchResults(withNoResults).png)
+
+### Product details:
+![ProductDetails](03_final_ui_design/final_prototypes/screens/6.ProductDetails.png)
+
+### Create account:
+![CreateAccount](03_final_ui_design/final_prototypes/screens/7.CreateAccount.png)
+
+### Checkout:
+![Checkout](03_final_ui_design/final_prototypes/screens/8.Checkout.png)
+
+### Post-purchase:
+![Post-Purchase](03_final_ui_design/final_prototypes/screens/9.Post-Purchase.png)
+
+### FAQs:
+![FAQs](03_final_ui_design/final_prototypes/screens/10.FAQs.png)
+
+### Figma workspace:
+![FigmaWorkspace](03_final_ui_design/final_prototypes/FigmaWorkspace.png)
+
+### [Components](https://github.com/marcturu/ecoworld/tree/main/03_final_ui_design/final_prototypes/components)
+
+### [Iconography](https://github.com/marcturu/ecoworld/tree/main/03_final_ui_design/final_prototypes/iconography)
+
+### [Canva Designs](https://github.com/marcturu/ecoworld/tree/main/03_final_ui_design/canva_designs)
+
+### Flux diagram:
+![FigmaWorkspace](03_final_ui_design/flux_diagram/FinalFluxDiagram.jpg)
+-
+
+## 🔍 01 — Benchmarking & Target Audience Study
+
+### Empathy map:
+![EmpathyMap](01_research/empathy_map/EmpathyMap.png)
+
+### FigJam benchmark:
+![FigJamBenchmark](01_research/Benchmark_FigJam.png)
+
+### User persona (1):
+![UserPersona1](01_research/user_personas/UserPersona1.png)
+
+### User persona (2):
+![UserPersona2](01_research/user_personas/UserPersona2.png)
+-
+
+## 🧩 02 — Experience Design
+
+### Card sorting products:
+![CardSorting30Products](02_ux_design/card_sorting/30Products_CardSorting.jpg)
+
+### Card sorting (1):
+![CardSorting(1)](02_ux_design/card_sorting/CardSorting_Aida.jpg)
+
+### Card sorting (2):
+![CardSorting(2)](02_ux_design/card_sorting/CardSorting_Alexis.jpg)
+
+### Card sorting (3):
+![CardSorting(3)](02_ux_design/card_sorting/CardSorting_Elena.jpg)
+
+### Card sorting (4):
+![CardSorting(4)](02_ux_design/card_sorting/CardSorting_Nina.jpg)
+
+### Sitemap:
+![Sitemap](02_ux_design/sitemap/Sitemap.jpg)
+
+### Flux diagram:
+![FluxDiagram](02_ux_design/flux_diagram/FluxDiagram.jpg)
+
+### [Prototypes MobileFirst](https://github.com/marcturu/ecoworld/tree/main/02_ux_design/prototypes_mobilefirst)
+
+### [Prototypes Desktop](https://github.com/marcturu/ecoworld/tree/main/02_ux_design/prototypes_desktop)
 
 ---
 

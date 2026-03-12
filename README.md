@@ -83,7 +83,7 @@ Low-fidelity wireframes were designed in **Figma** using a mobile-first approach
 
 ## 🎨 03 — Final Interface Design
 
-<sub>🗓️ January 2026</sub>
+<sub>🗓️ December 2026</sub>
 
 ### What's inside
 Full visual design system (with color gamut, typography, iconography, layout, elements, usability guidelines, accessibility,...), high-fidelity final mobile prototypes and interactive flow.

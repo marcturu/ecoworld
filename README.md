@@ -224,13 +224,3 @@ Three usability tests were conducted with participants matching the target audie
 ### [Prototypes MobileFirst](https://github.com/marcturu/ecoworld/tree/main/02_ux_design/prototypes_mobilefirst)
 
 ### [Prototypes Desktop](https://github.com/marcturu/ecoworld/tree/main/02_ux_design/prototypes_desktop)
-
----
-
-## ⚖️ Copyright & License
-
-© 2026 Marc Turu Roca. All rights reserved.
-
-This project and its contents are the exclusive intellectual property of Marc Turu Roca.  
-All rights reserved. No part of this project may be copied, modified, distributed, or used without prior written permission from the author.
-

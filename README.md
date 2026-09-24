@@ -221,6 +221,6 @@ Three usability tests were conducted with participants matching the target audie
 ### Flux diagram:
 ![FluxDiagram](02_ux_design/flux_diagram/FluxDiagram.jpg)
 
-### [Prototypes MobileFirst](https://github.com/marcturu/ecoworld/tree/main/02_ux_design/prototypes_mobilefirst)
+### [Prototypes MobileFirst from phase 02 — Experience Design](https://github.com/marcturu/ecoworld/tree/main/02_ux_design/prototypes_mobilefirst)
 
-### [Prototypes Desktop](https://github.com/marcturu/ecoworld/tree/main/02_ux_design/prototypes_desktop)
+### [Prototypes Desktop from phase 02 — Experience Design](https://github.com/marcturu/ecoworld/tree/main/02_ux_design/prototypes_desktop)
